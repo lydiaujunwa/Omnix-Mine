@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@500&family=Nunito&family=Oswald:wght@500&family=Roboto:wght@700&display=swap");
+:root {
+  --accent-100: rgba(251, 229, 229, 1);
+  --accent-200: rgb(246, 209, 209);
+  --accent-800: rgba(219, 53, 58, 1);
+  --accent-900: rgb(193, 35, 40);
+  --dark-blue: rgba(9, 26, 60, 1);
+  --card-blue: rgba(0, 54, 158, 0.9);
+  --gray-100: rgba(206, 210, 225, 1);
+  --light-blue: rgba(248, 249, 252, 1);
+  --green: rgba(39, 174, 96, 1);
+}
+ul {
+    list-style: none;
+}
+.btn-accent {
+    background-color: var(--accent-100);
+    color: var(--accent-800);
+    padding-inline: 64px;
+}
+.btn-accent:hover {
+    background-color: var(--accent-200);
+    color: var(--accent-800);
+}
+.btn-accent-800 {
+    background-color: var(--accent-800);
+    color: white;
+    padding-inline: 48px;
+}
+.btn-accent-800:hover {
+    background-color: var(--accent-900);
+    color: white;
+}
+.btn-block {
+    width: 100% !important;
+}
+.text-dark-blue {
+    color: var(--dark-blue);
+}
+.p-block-10 {
+    padding-block: 12px;
+}
+.text-red {
+    color: var(--accent-800);
+}
+.text-green {
+    color: var(--green);
+}
+.border-accent {
+    border-top: 4px solid var(--accent-200);
+}
+.border-gray {
+    border-top: 4px solid var(--gray-100);
+}
+  
+input[name="steps"] {
+    accent-color: var(--accent-800) !important;
+    font-size: 20px;
+}
+.steps {
+    color: var(--accent-800) !important;
+    font-size: 15px;
+}
+.light-blue {
+    background-color: var(--light-blue);
+}
+.relative {
+    position: relative !important;
+}
+.text-center {
+    text-align: center;
+}
+.card-blue {
+    background-color: var(--card-blue);
+    border-radius: 20px;
+    transform: translateX(-50%);
+    position: absolute !important;
+    bottom: 26px;
+    left: 50%;
+}
+.arrow-circle {
+    height: 40px;
+    width: 40px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+  
